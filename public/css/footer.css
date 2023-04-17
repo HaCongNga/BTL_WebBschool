@@ -1,0 +1,87 @@
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 1000px;
+    margin:0 auto;
+    margin-top:10px;
+}
+.container-header{
+    width : 1040px;
+    margin:0 auto;
+}
+
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    }
+
+.menu1{
+        background-color: #036
+    }
+.menu1{
+        display: flex;
+    }
+.menu1 ul li{
+    display:inline-block;
+    color: #fff;
+    font-size: 15px
+}
+.menu1 ul{
+    display: flex;
+    flex:9;
+}
+.menu1 button{
+background-color: transparent;
+color: #fff;
+font-style: italic;
+
+}
+
+.menu1 li a {
+    color: #333;
+    font-size: 15px;
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    font-weight: 400;
+
+}
+
+.menu1 li {
+    position: relative;
+    list-style: none
+}
+.menu1>li>a {
+    text-transform: uppercase
+}
+.menu1>li {
+    float: left
+}
+
+
+.menu1 li a {
+    color: #fff;
+    font-size: 15px
+}
+
+.menu1 li>a:hover,
+.menu1 ul li a.active {
+    color: #eff000
+}
+
+.menu1 li ul.sub-menu {
+    background-color: #036
+}
+
+.menu1 li ul.sub-menu li ul.sub-menu {
+    background-color: #036
+}
